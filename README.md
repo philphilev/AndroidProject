@@ -14,8 +14,12 @@ It will utilize open APIs in order to sort and store certain data based on choic
 Requirements:
 
 In order to develop a working application in the designated timeline a set of requirements based on MOSCOW are described below.
+
+----
+
 **Disclaimer: The requirements are not final and can change at a later date based on technologies and complexity of tasks** 
 
+----
 Must Have
 
 - [] UI with intuitive feel
