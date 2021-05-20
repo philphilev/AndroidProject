@@ -22,28 +22,14 @@ In order to develop a working application in the designated timeline a set of re
 ----
 Must Have
 
-- UI with intuitive feel
-- Local storage for selected items
+- Accounts for more customization
 - Access to Web API f.x Steam, Netflix, Google Books Api etc.
 - Basic Search and sort criteria for the returned items
+- Local storage for selected items
 
 Should Have 
 
-- Accounts for more customization
 - Advanced search and sort based on genres
 - Advanced search and sort based on rating
 - Possibility to access review and more information for quick selection
 
-Could have 
-
-- Checklist for items previously played/viewed/read but not in local storage
-- Homepage with items matching your interest
-- Random 'offline' activity suggestion
-- Custom field layout for "few taps selection"
-
-Won't Have/Would like to have
-
-- Unique Graphics and Design for elements 
-- Payed or Walled APIs that may provide robust information
-
--------------------------------------------------------------------------------------------------------------------------------------
