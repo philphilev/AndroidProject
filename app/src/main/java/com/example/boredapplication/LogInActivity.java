@@ -34,7 +34,7 @@ public class LogInActivity extends AppCompatActivity {
 
     private GoogleSignInClient mGoogleSignInClient;
     SignInButton signInButton;
-    private static final int RC_SIGN_IN = 9001;
+    private static final int RC_SIGN_IN = 666;
     private static final String TAG = "GoogleActivity";
     private FirebaseAuth mAuth;
 
@@ -77,12 +77,10 @@ public class LogInActivity extends AppCompatActivity {
         if (requestCode == RC_SIGN_IN) {
             Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
             try {
-                // Google Sign In was successful, authenticate with Firebase
                 GoogleSignInAccount account = task.getResult(ApiException.class);
                 Log.d(TAG, "firebaseAuthWithGoogle:" + account.getId());
                 firebaseAuthWithGoogle(account.getIdToken());
             } catch (ApiException e) {
-                // Google Sign In failed, update UI appropriately
                 Log.w(TAG, "Google sign in failed", e);
             }
         }
@@ -101,7 +99,6 @@ public class LogInActivity extends AppCompatActivity {
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
-                            //updateUI(null);
                         }
                     }
                 });

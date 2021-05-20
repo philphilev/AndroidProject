@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944740862973",
+    "project_id": "boredapplication-b6303",
+    "storage_bucket": "boredapplication-b6303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944740862973:android:6e0b79e525eeaccedb2794",
+        "android_client_info": {
+          "package_name": "com.example.boredapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944740862973-m87k2gb9eob39g6uvk79ds1e6i77km6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnTJfzSqmJIjmrIfzcy-bKfJbdA0JUhuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944740862973-m87k2gb9eob39g6uvk79ds1e6i77km6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
